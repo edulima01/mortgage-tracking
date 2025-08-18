@@ -1,10 +1,10 @@
 {
-  "name": "@org/website-e2e",
+  "name": "@edulima01/mortgage-tracking-website-e2e",
   "version": "0.0.1",
   "private": true,
   "nx": {
     "implicitDependencies": [
-      "@org/website"
+      "@edulima01/mortgage-tracking-website"
     ]
   }
 }
