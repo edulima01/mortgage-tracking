@@ -1,0 +1,89 @@
+{
+	"name": "mortgage-tracking",
+	"image": "mcr.microsoft.com/devcontainers/typescript-node:22-bookworm",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"bierner.markdown-mermaid",
+				"DavidAnson.vscode-markdownlint",
+				"dbaeumer.vscode-eslint",
+				"esbenp.prettier-vscode",
+				"github.vscode-github-actions",
+				"github.vscode-pull-request-github",
+				"hashicorp.terraform",
+				"mhutchie.git-graph",
+				"ms-azuretools.vscode-azurecontainerapps",
+				"ms-azuretools.vscode-azurestaticwebapps",
+				"ms-azuretools.vscode-docker",
+				"ms-vscode.azurecli",
+				"nrwl.angular-console",
+				"orta.vscode-jest",
+				"redhat.vscode-yaml",
+				"yzhang.markdown-all-in-one",
+				"firsttris.vscode-jest-runner"
+			],
+			"settings": {
+				"editor.defaultFormatter": "esbenp.prettier-vscode",
+				"editor.formatOnSave": true,
+  				"editor.tabSize": 2,
+				"eslint.validate": ["json"],
+				"files.associations": {
+					"*.yml": "yaml",
+					"**/.env.local": "properties",
+					"**/*.tfvars": "terraform-vars",
+					"**/*__template__": "plaintext"
+				},
+				"javascript.preferences.importModuleSpecifier": "project-relative",
+				"jest.outputConfig": {
+					"revealOn": "error",
+					"revealWithFocus": "test-results",
+					"clearOnRun": "none"
+				},
+				"jest.runMode": "on-demand",
+				"json.schemas": [
+					{
+					"fileMatch": ["/staticwebapp.config.json"],
+					"url": "https://json.schemastore.org/staticwebapp.config.json"
+					}
+				],
+  				"nxConsole.generateAiAgentRules": true,
+				"testing.automaticallyOpenTestResults": "openOnTestFailure",
+				"typescript.format.enable": false,
+				"typescript.preferences.importModuleSpecifier": "project-relative",
+				"yaml.schemas": {
+					"https://json.schemastore.org/github-action.json": [
+					".github/workflows/composite/**/*.yml"
+					],
+					"https://json.schemastore.org/github-workflow.json": [
+					".github/workflows/*.yml"
+					]
+				},
+				"[json]": {
+					"editor.insertSpaces": true,
+					"editor.tabSize": 2
+				},
+				"[terraform]": {
+					"editor.defaultFormatter": "hashicorp.terraform"
+				},
+				"[typescript]": {
+					"editor.detectIndentation": false,
+					"editor.tabSize": 2
+				},
+				"[yaml]": {
+					"editor.insertSpaces": true,
+					"editor.tabSize": 2
+				}
+			}
+		}
+	},
+	"features": {
+		"ghcr.io/devcontainers/features/azure-cli:1": {
+		    "version": "latest"
+		},
+		"ghcr.io/devcontainers/features/docker-in-docker:2": {},
+		"ghcr.io/devcontainers/features/terraform:1": {},
+		"ghcr.io/devcontainers-extra/features/nestjs-cli:2": {},
+		"ghcr.io/devcontainers-extra/features/nx-npm:1": {},
+		"ghcr.io/warrenbuckley/codespace-features/sqlite:1": {}
+	}
+}
