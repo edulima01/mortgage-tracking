@@ -1,0 +1,52 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "eslint.validate": ["json"],
+  "files.associations": {
+    "*.yml": "yaml",
+    "**/.env.local": "properties",
+    "**/*.tfvars": "terraform-vars",
+    "**/*__template__": "plaintext"
+  },
+  "javascript.preferences.importModuleSpecifier": "project-relative",
+  "jest.outputConfig": {
+    "revealOn": "error",
+    "revealWithFocus": "test-results",
+    "clearOnRun": "none"
+  },
+  "jest.runMode": "on-demand",
+  "json.schemas": [
+    {
+      "fileMatch": ["/staticwebapp.config.json"],
+      "url": "https://json.schemastore.org/staticwebapp.config.json"
+    }
+  ],
+  "nxConsole.generateAiAgentRules": true,
+  "testing.automaticallyOpenTestResults": "openOnTestFailure",
+  "typescript.format.enable": false,
+  "typescript.preferences.importModuleSpecifier": "project-relative",
+  "yaml.schemas": {
+    "https://json.schemastore.org/github-action.json": [
+      ".github/workflows/composite/**/*.yml"
+    ],
+    "https://json.schemastore.org/github-workflow.json": [
+      ".github/workflows/*.yml"
+    ]
+  },
+  "[json]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2
+  },
+  "[terraform]": {
+    "editor.defaultFormatter": "hashicorp.terraform"
+  },
+  "[typescript]": {
+    "editor.detectIndentation": false,
+    "editor.tabSize": 2
+  },
+  "[yaml]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2
+  }
+}

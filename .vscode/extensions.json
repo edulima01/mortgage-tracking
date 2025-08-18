@@ -1,0 +1,21 @@
+{
+  "recommendations": [
+    "bierner.markdown-mermaid",
+    "DavidAnson.vscode-markdownlint",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "github.vscode-github-actions",
+    "github.vscode-pull-request-github",
+    "hashicorp.terraform",
+    "mhutchie.git-graph",
+    "ms-azuretools.vscode-azurecontainerapps",
+    "ms-azuretools.vscode-azurestaticwebapps",
+    "ms-azuretools.vscode-docker",
+    "ms-vscode.azurecli",
+    "nrwl.angular-console",
+    "orta.vscode-jest",
+    "redhat.vscode-yaml",
+    "yzhang.markdown-all-in-one",
+    "firsttris.vscode-jest-runner"
+  ]
+}
