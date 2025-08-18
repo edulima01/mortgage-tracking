@@ -23,6 +23,7 @@
     }
   ],
   "nxConsole.generateAiAgentRules": true,
+  "nxConsole.nxWorkspacePath": "./",
   "testing.automaticallyOpenTestResults": "openOnTestFailure",
   "typescript.format.enable": false,
   "typescript.preferences.importModuleSpecifier": "project-relative",
