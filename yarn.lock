@@ -1571,7 +1571,7 @@ __metadata:
     "@swc/cli": "npm:~0.6.0"
     "@swc/core": "npm:~1.5.7"
     "@swc/helpers": "npm:~0.5.11"
-    "@swc/plugin-emotion": "npm:^2.5.67"
+    "@swc/plugin-emotion": "npm:^11.1.0"
     "@testing-library/dom": "npm:10.4.0"
     "@testing-library/react": "npm:16.1.0"
     "@types/jest": "npm:^30.0.0"
@@ -4876,12 +4876,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@swc/plugin-emotion@npm:^2.5.67":
-  version: 2.5.124
-  resolution: "@swc/plugin-emotion@npm:2.5.124"
+"@swc/plugin-emotion@npm:^11.1.0":
+  version: 11.1.0
+  resolution: "@swc/plugin-emotion@npm:11.1.0"
   dependencies:
     "@swc/counter": "npm:^0.1.3"
-  checksum: 10c0/cadf483c3020bb011ed1a2d3698b59a98533d4fb6ceda5aabc9ea9457fd786d473fa882756e6542cf19ce81148006745aa31b7880e343097c43c3c60fe636513
+  checksum: 10c0/2f53007b06a90ac2bd4aabfbc8932837a83d69ae70878e2e325cb6d8dc50b8cbdca494e345d93bc2a79d8edce00feb0ce662bfd09a36b9fe1c7b89290db45f77
   languageName: node
   linkType: hard
 
