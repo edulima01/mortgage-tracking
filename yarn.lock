@@ -1558,7 +1558,7 @@ __metadata:
     "@eslint/eslintrc": "npm:^2.1.1"
     "@eslint/js": "npm:^9.8.0"
     "@next/eslint-plugin-next": "npm:^15.2.4"
-    "@nx/devkit": "npm:21.5.1"
+    "@nx/devkit": "npm:21.5.2"
     "@nx/eslint": "npm:21.5.1"
     "@nx/eslint-plugin": "npm:21.5.1"
     "@nx/jest": "npm:21.5.1"
@@ -3488,6 +3488,24 @@ __metadata:
   peerDependencies:
     nx: ">= 20 <= 22"
   checksum: 10c0/ee57c32ae0af4c91d55a78f1e1efbd396e6a7f09c8f6e5c3f17839a6e46f87abe613e22194b158ddb9fb008ac164c713af625f7ed4724a74c06194f283dcf1d9
+  languageName: node
+  linkType: hard
+
+"@nx/devkit@npm:21.5.2":
+  version: 21.5.2
+  resolution: "@nx/devkit@npm:21.5.2"
+  dependencies:
+    ejs: "npm:^3.1.7"
+    enquirer: "npm:~2.3.6"
+    ignore: "npm:^5.0.4"
+    minimatch: "npm:9.0.3"
+    semver: "npm:^7.5.3"
+    tmp: "npm:~0.2.1"
+    tslib: "npm:^2.3.0"
+    yargs-parser: "npm:21.1.1"
+  peerDependencies:
+    nx: ">= 20 <= 22"
+  checksum: 10c0/ed46fcf078247907dbd1f324ca76ff3681cf5b39837f7655760021d5870df94161c836bf3e9af5f6d49819deec35567af8e3c0e82dc222ef49284adcfb9d5ede
   languageName: node
   linkType: hard
 
